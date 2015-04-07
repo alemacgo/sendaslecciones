@@ -7,3 +7,46 @@
     background-size: cover;
     height: 80vh;
 }
+
+.bottom-menu {
+    display: block;
+    background-color: #383f47;
+    /* To center links in the container */
+    padding: 40px 0;
+}
+
+.bottom-links {
+    margin: 0;
+    list-style: none;
+}
+
+.bottom-links li {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 25px;
+
+    display: block;
+    float: left;
+    margin: 0 24px 0 0;
+}
+
+.bottom-right {
+    float: right;
+    margin: 0;
+    list-style: none;
+}
+
+.bottom-right li {
+    float: left;
+    margin: 0 18px 0 0;
+}
+
+li a {
+    color: #fff;
+}
+
+.container {
+    margin 0 auto;
+}
