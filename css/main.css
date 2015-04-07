@@ -1,0 +1,9 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.intro {
+    background: url("../img/background.jpg") no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+}
