@@ -4,8 +4,30 @@
 
 .intro-background {
     background: url("../img/background.jpg") no-repeat center center;
+}
+
+.worldwar2-background {
+    background: url("../img/worldwar2.jpg") no-repeat center center;
+}
+
+.cell-background {
+    background: url("../img/cell.jpg") no-repeat center center;
+}
+
+.kinetism-background {
+    background: url("../img/kinetism.jpg") no-repeat center center;
+}
+
+.block {
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
+}
+
+a.block-small {
+    display: block;
+    background-size: cover;
+    height: 50vh;
+    color: #000;
 }
 
 .intro-section {
@@ -82,7 +104,8 @@ nav {
     border-width: 2px;
 }
 
-.calltoaction {
+a.calltoaction {
+    display: block;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -101,15 +124,23 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 2.5em;
-    text-align: center;
-    color: #fff;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    font-size: 2em;
+    margin-top: 5vh;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 1.25em;
-    text-align: center;
+    margin-top: 0px;
+}
+
+.intro-text {
     color: #fff;
-    margin-top: 20px;
+    text-align: center;
 }
