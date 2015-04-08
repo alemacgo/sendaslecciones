@@ -2,10 +2,14 @@
    Author's custom styles
    ========================================================================== */
 
-.intro {
+.intro-background {
     background: url("../img/background.jpg") no-repeat center center;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
+}
+
+.intro-section {
+    margin: 10vh 0 100px 0;
 }
 
 .bottom-menu {
@@ -15,12 +19,12 @@
     padding: 40px 0;
 }
 
-.bottom-links {
+.bottom-left {
     margin: 0;
     list-style: none;
 }
 
-.bottom-links li {
+.bottom-left li {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -43,10 +47,69 @@
     margin: 0 18px 0 0;
 }
 
+.top-right {
+    float: right;
+    margin: 0;
+    list-style: none;
+}
+
+.top-right li {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    line-height: 25px;
+
+    display: block;
+    float: left;
+    margin: 17px 24px 0 0;
+}
+
 li a {
     color: #fff;
 }
 
-.container {
-    margin 0 auto;
+nav {
+    padding: 30px 0;
+}
+
+.button {
+    margin-top: -14px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.calltoaction {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+    margin: 80px auto 0 auto;
+    max-width: 200px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
 }
